@@ -24,8 +24,8 @@ import org.springframework.web.bind.annotation.RestController;
  * 
  * Given this aspect of the application is an API, we made use of
  * the @RestController annotation here – which equivalent to a @Controller along
- * with @ResponseBody – so that each method marshalls the returned resource
- * right to the HTTP response.
+ * with @ResponseBody – so that each method marshals the returned resource right
+ * to the HTTP response.
  * 
  * Just one note worth pointing out – we're exposing our Book entity as our
  * external resource here. That's fine for our simple application here, but in a
